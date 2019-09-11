@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-11T16:21:34</date>
+  <millis>1568190094940</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/hellov1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">hellov1</property>
+  <property name="description">hellov1</property>
+  <property name="id">Test Suites/hellov1</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:34</date>
+  <millis>1568190094959</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = BW - 172.16.3.58</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">BW - 172.16.3.58</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:34</date>
+  <millis>1568190094960</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:34</date>
+  <millis>1568190094961</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.16.3.58</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.16.3.58</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:34</date>
+  <millis>1568190094982</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.1.2</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:35</date>
+  <millis>1568190095669</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/hellov1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/hellov1</property>
+  <property name="description">hellov1</property>
+  <property name="id">Test Cases/hellov1</property>
+  <property name="source">E:\\TestTools\\KatalonDATA\\linuxapi\\Test Cases\\hellov1.tc</property>
+  <property name="tag">hellov1</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:36</date>
+  <millis>1568190096311</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;hello\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:37</date>
+  <millis>1568190097792</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\TestTools\\KatalonDATA\\linuxapi\\Reports\\hellov1\\20190911_162107\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2784eee5-522b-44ff-883b-f39357d42e0a</property>
+</record>
+<record>
+  <date>2019-09-11T16:21:38</date>
+  <millis>1568190098003</millis>
+  <sequence>11</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-11T16:21:38</date>
+  <millis>1568190098004</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;hello\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-11T16:21:38</date>
+  <millis>1568190098006</millis>
+  <sequence>13</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/hellov1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-09-11T16:21:38</date>
+  <millis>1568190098007</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/hellov1</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-09-11T16:21:38</date>
+  <millis>1568190098213</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/hellov1</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
